@@ -20,7 +20,7 @@
 <h1 class="black text-4xl text-center font-extrabold  mb-8">Purchase TK 200 or <br>
      above & get <span class="text-[#E527B2] text-center font-extrabold ">20% off</span>
 </h1>
-<p class="black text-center font-medium  ">Use Promo Code <button class="bg-[#E527B2] border-4 p-2 rounded-lg mx-auto"> SELL200
+<p class="black text-center font-medium  ">Use Promo Code <button class="bg-[#E527B2] border-4 p-2 rounded-lg mx-auto text-white"> SELL200
 </button></p> 
  </div>
  <!-- banner photo -->
@@ -169,23 +169,24 @@
 <div class="ml-16 mt-16 ">
   <!-- have a coupon  -->
   <div class="border-1 rounded-lg bg-[#FFFFFF]">
-    <h4 class="black text-center text-lg font-semibold">Have coupon ?</h4>
+    <h4 class="black text-center text-lg font-semibold mb-3">Have coupon ?</h4>
   <div class="lg:flex lg:justify-center items-center ">
-    <input id ="input-Field" type="text" class="mt-3 border-2 p-1 " placeholder="couponcode"> <button id="apply-button"  class="border-2 rounded-md  p-1 bg-[#E527B2]" > Apply</button>
+    <input id ="input-Field" type="text" class="mt-3 border-2 p-1 " placeholder="couponcode"> <button id="apply-button" class="btn btn-active btn-secondary text-black" disabled>Apply</button>
+
   </div>
   </div>
    <!-- item list  -->
-  <div class="mt-10 ">
+  <div class="mt-10 border-1 rounded-lg bg-[#FFFFFF]">
     <div class="mb-3">
-     <ul id="list-Id" class="black text-lg font-semibold">
+     <ol id="list-Id" class="black text-lg font-semibold list-decimal">
          <li >Home cooker</li>
      <li >Sports cates</li>
      <li > Home cooker</li>
-    </ul>
+     </ol>
     </div>
     <hr >
     <!-- price list -->
-    <div class="mt-3 mb-3">
+    <div class="mt-3 mb-3 border-1 rounded-lg bg-[#FFFFFF]">
       <p class="black text-lg font-semibold">Total price: <span id="current-Price">00</span> TK </p>
       <p class="black text-lg font-semibold">Discount: <span id="discount-amount">00</span> TK </p>
       <p class="black text-lg font-semibold">Total : <span id="final-total-amount">00</span> TK </p>
@@ -194,15 +195,15 @@
           
   <div  >
     <!-- The button to open modal -->
-    <a href="#my_modal_8"   class=" btn mt-3 bg-[#E527B2] p-2 rounded-lg w-9/12 mx-auto"  id="purchase-button" >Make purchase</a>
+    <a href="#my_modal_8"   class=" btn mt-3 bg-[#E527B2] p-2 rounded-lg w-9/12 mx-auto"  id="purchase-button" disabled>Make purchase</a>
 
     <div class="modal " id="my_modal_8">
       <div class="modal-box flex flex-col justify-center items-center">
        <img src="./images/congo.png" alt="">
-        <h3 class="font-bold text-lg">congratulation</h3>
-        <p class="py-4">thank you for purchase </p>
+        <h3 class="font-extrabold text-xl">Congratulations</h3>
+        <p class="py-4 black font-medium ">Your Purchase the product </p>
         <div class="modal-action">
-         <a href="#" class="btn">home </a>
+         <a href="#" class="btn bg-[#E527B2] p-2">Go Home</a>
         </div>
       </div>
     </div>
