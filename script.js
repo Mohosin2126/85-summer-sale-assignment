@@ -159,7 +159,7 @@ document.getElementById('final-total-amount').innerText=total
  document.getElementById('apply-button').addEventListener('click',function(){
    let inputField =document.getElementById('input-Field').value
    let discountPercentage=20;
-if (inputField=="sell200"){
+if (inputField=="SELL200"){
   let currentPriceString= document.getElementById('current-Price').innerText
   let currentPrice=parseFloat(currentPriceString)
   let discountTotalAmount = (currentPrice * discountPercentage) / 100;
